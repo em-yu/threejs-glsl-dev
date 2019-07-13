@@ -2,8 +2,8 @@ import './style.css';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 
-import vertShader from 'raw-loader!glslify-loader!./shader.vert';
-import fragShader from 'raw-loader!glslify-loader!./shader.frag';
+import vertShader from './shader.vert';
+import fragShader from './shader.frag';
 
 const canvas = document.createElement('canvas');
 document.body.appendChild(canvas);
