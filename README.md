@@ -14,3 +14,4 @@ Start live-reload server with: ``` npm start ```
 
 Build (in `/dist` folder) with: ```npm run build``` 
 
+Shaders can be imported in `index.js` by doing: `import shader from ./shader.vert`
