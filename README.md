@@ -1,10 +1,16 @@
 # threejs-glsl-dev
 
 Built with:
-* webpack
-* webpack-dev-server
-* threejs
-* glslify
+* [webpack](https://github.com/webpack/webpack)
+* [webpack-dev-server](https://github.com/webpack/webpack-dev-server)
+* [threejs](https://github.com/mrdoob/three.js)
+* [glslify-loader](https://github.com/glslify/glslify-loader)
 
-Start with:
-``` npm start ```
+This is a ready-to-use base to build a threejs project with custom shaders, written as separate files (makes it possible to use a linter).
+
+Install by downloading and running: ```npm install```
+
+Start live-reload server with: ``` npm start ```
+
+Build (in `/dist` folder) with: ```npm run build``` 
+
